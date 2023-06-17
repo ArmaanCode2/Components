@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px){
+    section{
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    section{
+        width: 70vw;
+    }
+    .g-recaptcha{
+        transform:scale(0.9);
+        -webkit-transform-origin: 0 0;
+    }    
+}

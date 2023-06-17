@@ -1,0 +1,26 @@
+div.photos{
+    width: 80vw;
+    height: 80vh;    
+}
+
+input,button,div.photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+input,button{
+    font-size: 20px;
+    margin: auto;
+}
+
+.selected{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+svg path{
+    user-select: none;
+}
